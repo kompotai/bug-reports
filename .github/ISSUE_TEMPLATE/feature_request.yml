@@ -1,0 +1,29 @@
+name: Feature Request
+description: Request a new feature
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What do you need?
+      description: Describe the feature
+      placeholder: I want to be able to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: How would you use this feature?
+      placeholder: This would allow me to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workarounds you're using now?
+      placeholder: Currently I have to...

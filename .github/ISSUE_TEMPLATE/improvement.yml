@@ -1,0 +1,29 @@
+name: Improvement
+description: Suggest an improvement to existing functionality
+title: "[Improvement]: "
+labels: ["improvement"]
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior
+      description: How does it work now?
+      placeholder: Currently, when I do X, it works like Y...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed improvement
+      description: How should it work?
+      placeholder: It would be better if...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Why is this needed?
+      description: What problem does this solve?
+      placeholder: This would help because...

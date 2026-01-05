@@ -15,14 +15,14 @@ body:
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce
+      label: Steps to reproduce (optional)
       description: How can we reproduce this?
       placeholder: |
         1. Go to...
         2. Click on...
         3. See error
     validations:
-      required: true
+      required: false
 
   - type: input
     id: url

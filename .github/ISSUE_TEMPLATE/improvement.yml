@@ -10,7 +10,7 @@ body:
       description: How does it work now?
       placeholder: Currently, when I do X, it works like Y...
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: proposed
@@ -19,7 +19,7 @@ body:
       description: How should it work?
       placeholder: It would be better if...
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: context

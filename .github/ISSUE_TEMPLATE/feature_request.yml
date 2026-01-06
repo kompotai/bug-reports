@@ -10,7 +10,7 @@ body:
       description: Describe the feature
       placeholder: I want to be able to...
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: use_case
@@ -19,7 +19,7 @@ body:
       description: How would you use this feature?
       placeholder: This would allow me to...
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: alternatives
